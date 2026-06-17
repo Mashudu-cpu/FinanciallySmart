@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    padding: 50px;
+    font-family: Arial;
+    background: #f5f7fb;
+}
+
+.summary{
+    background: white;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 12px;
+    width: 300px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background: #2463eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#expenseList{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.expense{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete{
+    background: #e63946;
+}
